@@ -8,10 +8,12 @@ in this source code i use Kavenegar API SMS system, you can change it if you wan
 
 In order to use this code, these modules needs to be install on your operating system.
 
-* `selenium | webdriver`
+
+* `Kavenegar (if you want to use this API)`
 
 * `selenium.webdriver.common.keys | Keys`
 
+* `selenium | webdriver`
+
 * `requests`
 
-* `Kavenegar (if you want to use this API)`
