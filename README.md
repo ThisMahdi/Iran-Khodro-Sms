@@ -19,7 +19,7 @@ In order to use this code, these modules needs to be installed on your operating
 
 ## Run :
 
-to run code use the command below :
+to run code use the command below in your terminal :
 
 ```Python
 python3 BuyCar.py
