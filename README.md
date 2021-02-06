@@ -4,7 +4,7 @@ Useful code to check "esale.ikco.ir" website and if there was a sale schedule , 
 
 in this source code i use Kavenegar API SMS system, you can change it if you want because its optional.
 
-# Requirements :**
+# Requirements :
 
 In order to use this code, these modules needs to be install on your operating system.
 
