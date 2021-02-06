@@ -6,7 +6,7 @@ in this source code i use Kavenegar API SMS system, you can change it if you wan
 
 ## Requirements :
 
-In order to use this code, these modules needs to be install on your operating system.
+In order to use this code, these modules needs to be installed on your operating system.
 
 
 * `Kavenegar (if you want to use this API)`
