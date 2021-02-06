@@ -17,3 +17,10 @@ In order to use this code, these modules needs to be installed on your operating
 
 * `requests`
 
+## Run :
+
+to run code use the command below :
+
+```Python
+python3 BuyCar.py
+```
