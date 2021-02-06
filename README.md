@@ -13,3 +13,5 @@ In order to use this code, these modules needs to be install on your operating s
 * `selenium.webdriver.common.keys | Keys`
 
 * `requests`
+
+* `Kavenegar (if you want to use this API)`
