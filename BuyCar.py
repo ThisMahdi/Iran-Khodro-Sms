@@ -36,6 +36,7 @@ def sendsms():
     response = api.sms_send(params)
 
 
-buycar()
+if __name__ == "__main__":
+    buycar()
 
 # A Simple Code By ThisMahdi | Telegram : @Thisismahdi
