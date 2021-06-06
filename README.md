@@ -11,9 +11,7 @@ In order to use this code, these modules needs to be installed on your operating
 
 * `Kavenegar (if you want to use this API)`
 
-* `selenium.webdriver.common.keys | Keys`
-
-* `selenium | webdriver`
+* `selenium`
 
 * `requests`
 
