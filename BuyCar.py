@@ -4,6 +4,7 @@ from kavenegar import *
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import requests
+import time
 
 
 def buycar():
@@ -36,7 +37,9 @@ def sendsms():
     response = api.sms_send(params)
 
 
-if __name__ == "__main__":
+while(true):
+    if __name__ == "__main__":
     buycar()
+    time.sleep(30000)
 
 # A Simple Code By ThisMahdi | Telegram : @Thisismahdi
