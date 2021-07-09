@@ -2,7 +2,6 @@
 
 from kavenegar import *
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import requests
 import time
 
@@ -17,15 +16,13 @@ def buycar():
     else:
         print("Turn Off VPN")
     driver.get(url)
-    mytext = driver.find_element_by_xpath('//p[@class="alert alert-danger"]')
-    mytextaded = []
-    mytextaded.append(mytext.text)
-    print(mytextaded)
-    if mytextaded[0] == mytextaded[0]:
-        print("SMS Not Sent")
+    nosale = driver.find_element_by_xpath('//p[@id="noItemFound"]')
+    if nosale.text == "هیچ برنامه فروشی متناسب با درخواست شما موجود نمیباشد":
+        print("There is no schedule sale on site :(")
+        print("Sms Not Sent!")
     else:
         sendsms()
-        print("Sms Sent")
+        print("Sms Sent! Wow...")
 
 
 # Code for Kavenegar API SMS System
@@ -37,8 +34,8 @@ def sendsms():
     response = api.sms_send(params)
 
 
-while(true):
-    if __name__ == "__main__":
+if __name__ == "__main__":
+    while True:
     buycar()
     time.sleep(30000)
 
