@@ -16,13 +16,13 @@ def buycar():
     else:
         print("Turn Off VPN")
     driver.get(url)
-    nosale = driver.find_element_by_xpath('//p[@id="noItemFound"]')
-    if nosale.text == "هیچ برنامه فروشی متناسب با درخواست شما موجود نمیباشد":
-        print("There is no schedule sale on site :(")
-        print("Sms Not Sent!")
-    else:
-        sendsms()
-        print("Sms Sent! Wow...")
+    try:
+        nosale = driver.find_element_by_xpath('//p[@id="noIteaamFound"]')
+        if nosale.text == "هیچ برنامه فروشی متناسب با درخواست شما موجود نمیباشد":
+            print("No schedule sale on site :(")
+    except:
+            sendsms()
+            print("Sms sent!")
 
 
 # Code for Kavenegar API SMS System
