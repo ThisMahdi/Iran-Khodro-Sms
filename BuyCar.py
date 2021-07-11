@@ -17,7 +17,7 @@ def buycar():
         print("Turn Off VPN")
     driver.get(url)
     try:
-        nosale = driver.find_element_by_xpath('//p[@id="noIteaamFound"]')
+        nosale = driver.find_element_by_xpath('//p[@id="noItemFound"]')
         if nosale.text == "هیچ برنامه فروشی متناسب با درخواست شما موجود نمیباشد":
             print("No schedule sale on site :(")
     except:
