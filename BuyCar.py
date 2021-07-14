@@ -36,7 +36,7 @@ def sendsms():
 
 if __name__ == "__main__":
     while True:
-    buycar()
-    time.sleep(30000)
+        buycar()
+        time.sleep(30000)
 
 # A Simple Code By ThisMahdi | Telegram : @Thisismahdi
